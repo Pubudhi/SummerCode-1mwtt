@@ -19,3 +19,8 @@ print('blink ' * 4)
 
 print(12 + 12)
 print('12' + '12')
+
+def add(num1, num2):
+	return num1+num2
+
+print(add(5,2))

@@ -2,7 +2,7 @@
 #  https://wiki.python.org/main/PythonTestingTollsTaxonomy
 
 # Python Unittesting
-# heeps://docs.python.org/3/library/unittest.html
+# https://docs.python.org/3/library/unittest.html
 
 import unittest
 from w2day001 import moo
@@ -22,3 +22,4 @@ unittest.main()
 
 # homework
 # write test cases for previous examples
+# test_calculator.py

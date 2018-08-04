@@ -31,20 +31,32 @@ ask_recursively('Do you wet the bed?')
 
 # Reading and writing files
 
-filename = "alice_in_wonderland.txt"
-file = open(filename, "r")
-# for line in file:
-# 	print(line)
+# filename = "alice_in_wonderland.txt"
 
-raw = file.read()
-print(raw[:80])
 
-print(raw[0:65])
-print(raw[65:500])
 
-print('length' +str(len(raw)))
+# file = open(filename, "r")
+# # for line in file:
+# # 	print(line)
+
+# raw = file.read()
+# print(raw[:80])
+
+# print(raw[0:65])
+# print(raw[65:500])
+
+# print('length' +str(len(raw)))
+
+# =======   Homework
 
 #  calculate a table for each letter in the alphabet from a-z, and count how many times each letter appears in Alice in Wonderland.
 # freequency distribution
 # a:1545..
 # b:462..
+
+alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+with open("alice_in_wonderland.txt") as f:
+    contents = f.read().lower()
+for i in range(len(alphabet)):
+	print(alphabet[i] + " : " + str(contents.count(alphabet[i])))

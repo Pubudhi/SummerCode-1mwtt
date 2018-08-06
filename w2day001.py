@@ -59,4 +59,4 @@ alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n"
 with open("alice_in_wonderland.txt") as f:
     contents = f.read().lower()
 for i in range(len(alphabet)):
-	print(alphabet[i] + " : " + str(contents.count(alphabet[i])))
+	print(alphabet[i] + " : " + str(contents.count(alphabet[i])))g

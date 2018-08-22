@@ -41,5 +41,3 @@
 	var seconds = Math.abs(ageDate.getSeconds());
 	
 	console.log("I am " + years + " years " + months + " months " + days + " days " + hours + " minutes and " + seconds + " seconds old now. !!!")
-
-
